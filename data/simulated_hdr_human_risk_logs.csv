@@ -1,0 +1,16 @@
+event_id,timestamp,log_type,user,department,device,source_ip,action,status,resource,risk_signal,severity,label,incident_id,details
+HDR-0001,2026-09-14 12:23:39,hdr_human_risk,f.chen,HR,F-LAPTOP,10.0.4.66,security_training_completed,success,phishing_simulation,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0002,2026-09-14 17:23:26,hdr_human_risk,g.smith,Finance,G-LAPTOP,10.0.12.150,phishing_reported,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0004,2026-09-15 16:28:07,hdr_human_risk,j.garcia,Finance,J-LAPTOP,10.0.11.62,policy_acknowledged,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0003,2026-09-15 16:57:32,hdr_human_risk,h.lee,Operations,H-LAPTOP,10.0.4.156,policy_acknowledged,success,training_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0005,2026-09-16 10:32:26,hdr_human_risk,c.ung,IT,C-LAPTOP,10.0.8.154,security_training_completed,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0006,2026-09-17 13:44:04,hdr_human_risk,a.nguyen,Finance,A-LAPTOP,10.0.9.25,security_training_completed,success,phishing_simulation,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0007,2026-09-17 14:11:49,hdr_human_risk,b.patel,Finance,B-LAPTOP,10.0.3.206,policy_acknowledged,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0008,2026-09-18 16:25:33,hdr_human_risk,e.rodriguez,HR,E-LAPTOP,10.0.3.196,security_training_completed,success,training_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0010,2026-09-21 11:04:06,hdr_human_risk,j.garcia,Finance,J-LAPTOP,10.0.10.18,phishing_reported,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0009,2026-09-21 11:59:56,hdr_human_risk,d.kim,HR,D-LAPTOP,10.0.12.205,security_training_completed,success,training_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0011,2026-09-22 15:14:34,hdr_human_risk,c.ung,IT,C-LAPTOP,10.0.4.203,security_training_completed,success,training_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0012,2026-09-23 16:14:26,hdr_human_risk,c.ung,IT,C-LAPTOP,10.0.5.80,security_training_completed,success,policy_portal,none,low,normal,,Normal human-risk/security-awareness event
+HDR-0013,2026-09-23 16:54:00,hdr_human_risk,m.chen,Operations,M-LAPTOP,10.0.9.91,phishing_link_clicked,success,identity_portal,phishing_click,medium,suspicious,INC-001,Clicked simulated phishing link
+HDR-0015,2026-09-23 16:54:00,hdr_human_risk,m.chen,Operations,M-LAPTOP,10.0.3.203,security_warning_bypassed,success,identity_portal,warning_bypass,medium,suspicious,INC-001,Bypassed browser/security warning
+HDR-0014,2026-09-23 16:56:00,hdr_human_risk,m.chen,Operations,M-LAPTOP,10.0.7.48,credential_submission_detected,success,browser_warning,credential_submission,medium,suspicious,INC-001,Entered credentials on suspicious site

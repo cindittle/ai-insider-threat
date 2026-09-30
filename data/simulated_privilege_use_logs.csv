@@ -1,0 +1,18 @@
+event_id,timestamp,log_type,user,department,device,source_ip,action,status,resource,risk_signal,severity,label,incident_id,details
+PRIV-0001,2026-09-18 09:18:45,privilege_use,b.patel,Finance,B-LAPTOP,10.0.2.98,permission_check,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0004,2026-09-18 10:03:06,privilege_use,g.smith,Finance,G-LAPTOP,10.0.7.94,password_reset_request,success,endpoint_admin_console,none,low,normal,,Expected privilege-related action
+PRIV-0002,2026-09-18 13:17:59,privilege_use,e.rodriguez,HR,E-LAPTOP,10.0.9.188,permission_check,success,identity_admin_portal,none,low,normal,,Expected privilege-related action
+PRIV-0003,2026-09-18 14:37:15,privilege_use,f.chen,HR,F-LAPTOP,10.0.4.22,password_reset_request,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0005,2026-09-18 15:08:00,privilege_use,h.lee,Operations,H-LAPTOP,10.0.9.247,admin_tool_open,success,endpoint_admin_console,none,low,normal,,Expected privilege-related action
+PRIV-0006,2026-09-21 15:05:41,privilege_use,f.chen,HR,F-LAPTOP,10.0.10.69,password_reset_request,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0007,2026-09-21 15:11:59,privilege_use,m.chen,Operations,M-LAPTOP,10.0.1.224,permission_check,success,endpoint_admin_console,none,low,normal,,Expected privilege-related action
+PRIV-0009,2026-09-22 13:29:17,privilege_use,m.chen,Operations,M-LAPTOP,10.0.4.217,admin_tool_open,success,endpoint_admin_console,none,low,normal,,Expected privilege-related action
+PRIV-0008,2026-09-22 14:55:59,privilege_use,a.nguyen,Finance,A-LAPTOP,10.0.5.234,admin_tool_open,success,identity_admin_portal,none,low,normal,,Expected privilege-related action
+PRIV-0012,2026-09-23 10:30:20,privilege_use,h.lee,Operations,H-LAPTOP,10.0.4.11,permission_check,success,endpoint_admin_console,none,low,normal,,Expected privilege-related action
+PRIV-0010,2026-09-23 12:41:16,privilege_use,a.nguyen,Finance,A-LAPTOP,10.0.12.57,admin_tool_open,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0011,2026-09-23 13:54:40,privilege_use,e.rodriguez,HR,E-LAPTOP,10.0.7.221,permission_check,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0014,2026-09-23 14:23:44,privilege_use,m.chen,Operations,M-LAPTOP,10.0.4.25,password_reset_request,success,identity_admin_portal,none,low,normal,,Expected privilege-related action
+PRIV-0013,2026-09-23 15:17:21,privilege_use,j.garcia,Finance,J-LAPTOP,10.0.5.159,password_reset_request,success,file_share_admin,none,low,normal,,Expected privilege-related action
+PRIV-0017,2026-09-24 02:27:00,privilege_use,m.chen,Operations,UNKNOWN-DEVICE,185.220.101.45,role_lookup,success,identity_admin_portal,after_hours;privilege_recon,high,suspicious,INC-001,Privilege activity correlated with after-hours login incident
+PRIV-0016,2026-09-24 02:29:00,privilege_use,m.chen,Operations,UNKNOWN-DEVICE,185.220.101.45,permission_change_attempt,failed,file_share_admin,after_hours;privilege_misuse,high,suspicious,INC-001,Privilege activity correlated with after-hours login incident
+PRIV-0015,2026-09-24 02:32:00,privilege_use,m.chen,Operations,UNKNOWN-DEVICE,185.220.101.45,admin_tool_open,success,identity_admin_portal,after_hours;privilege_use,high,suspicious,INC-001,Privilege activity correlated with after-hours login incident
