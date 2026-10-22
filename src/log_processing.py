@@ -98,7 +98,7 @@ def clean_log_data(df: pd.DataFrame) -> pd.DataFrame:
     cleaned["date"] = cleaned["timestamp"].dt.date
     cleaned["hour"] = cleaned["timestamp"].dt.hour
     cleaned["day_of_week"] = cleaned["timestamp"].dt.day_name()
-    cleaned["is_weekend"] = cleaned["timestamp"].dt.dayofweek >= 5
+    cleaned["is_weekend"] = cleaned["timestamp"].dt.day_of_week >= 5
     cleaned["is_after_hours"] = (cleaned["hour"] < 7) | (cleaned["hour"] > 18)
 
     # Create numeric severity score for later risk scoring
