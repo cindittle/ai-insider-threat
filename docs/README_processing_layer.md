@@ -4,7 +4,7 @@ This folder contains the first Python script for the capstone project.
 
 ## Jira task supported
 
-KAN-9: Build Python processing layer
+Build Python processing layer
 
 ## What this script does
 

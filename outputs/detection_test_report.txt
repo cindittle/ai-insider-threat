@@ -1,0 +1,13 @@
+SYNTHETIC SOC ANOMALY DETECTION - VALIDATION RESULTS
+Baseline ends: 2026-09-22 (first seven distinct days; no future incident events used)
+Total events: 453
+Flagged event alerts: 26
+Correlated cases: 1
+Synthetic event-level confusion matrix: TP=26, FP=0, FN=0, TN=427
+Synthetic event-level precision: 1.000
+Synthetic event-level recall: 1.000
+Injected incident events flagged: 26/26
+NOTE: Label and incident_id were used ONLY for validation, not detection or correlation.
+NOTE: Synthetic-data results do not establish real-world detection performance.
+NOTE: File-volume is estimated from download counts; no byte-count field exists.
+NOTE: 'AI' is a demo IsolationForest user-day model, not a trained production SOC system.

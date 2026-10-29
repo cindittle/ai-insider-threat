@@ -1,0 +1,11 @@
+user,training_login_count,normal_login_hour_mean,normal_login_hour_std,known_login_devices,baseline_max_daily_downloads,download_burst_threshold
+a.nguyen,7,8.152,1.124,"[""a-laptop""]",2,4
+b.patel,7,8.943,1.243,"[""b-laptop""]",1,4
+c.ung,7,9.105,1.062,"[""c-laptop""]",1,4
+d.kim,7,10.064,0.506,"[""d-laptop""]",2,4
+e.rodriguez,7,8.881,1.262,"[""e-laptop""]",1,4
+f.chen,7,9.862,0.555,"[""f-laptop""]",2,4
+g.smith,7,8.483,1.05,"[""g-laptop""]",1,4
+h.lee,7,8.769,1.156,"[""h-laptop""]",1,4
+j.garcia,7,9.124,1.087,"[""j-laptop""]",2,4
+m.chen,7,9.067,1.098,"[""m-laptop""]",0,4
